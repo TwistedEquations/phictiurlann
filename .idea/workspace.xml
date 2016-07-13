@@ -2,24 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb370a0b-2aef-4bf7-8009-6092c67503b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/cwebp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/dwebp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/gif2webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/vwebp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/webpmux" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/cwebp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/dwebp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/gif2webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/vwebp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/webpmux" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/cwebp.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/dwebp.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/freeglut.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/gif2webp.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/vwebp.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/webpmux.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/META-INF/gradle-plugins/com.twistedequations.phictiurlann.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/butteraugli/osx/compare_pngs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/linux/jpegtran" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/osx/jpegtran" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/win/jpegtran.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/win/libjpeg-62.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli_image1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli_image2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_18_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_truth_truth_0_28.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_all_1_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageOptimise.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageTypes.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/JpegImageOptimise.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/ButeraugliTest.kt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/cwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/dwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/gif2webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/vwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac/webpmux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/cwebp.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/dwebp.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/freeglut.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/gif2webp.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/vwebp.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows/webpmux.exe" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_runtime_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_runtime_1_0_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/phictiurlann/phictiurlann_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/phictiurlann/phictiurlann_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/phictiurlann/phictiurlann_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/phictiurlann/phictiurlann_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build.gradle" afterPath="$PROJECT_DIR$/phictiurlann/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy" afterPath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt" />
     </list>
     <ignored path="build-picturlan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,12 +92,100 @@
     <favorites_list name="build-picturlan" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Phictiurlann.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="47" />
+              <folding>
+                <element signature="e#43#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Butteraugli.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Binaries.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="28" />
+              <folding>
+                <element signature="e#52#206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinariesKtTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButeraugliTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/ButeraugliTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+              <folding>
+                <element signature="e#52#439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="butteraugli_image2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli_image2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebpImageOptimise.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -415,7 +525,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4403655456000" />
+        <entry key="$PROJECT_DIR$" value="4404715764000" />
         <entry key="$PROJECT_DIR$/../../kotlin/charizard-project/charizard-web" value="4382418462000" />
         <entry key="$PROJECT_DIR$/../../server/booking-server" value="7306145725000" />
         <entry key="$PROJECT_DIR$/../../server/product" value="10251178615000" />
@@ -433,16 +543,16 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.2/5debd813305c36f1c61d18110fdc13a5f663bbd/kotlin-gradle-plugin-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/22063f19bfd8e50f21fc310842a91ff5b31bb272/kotlin-stdlib-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.0.2/aa5c3dcba43516a11146ca50375d340a330ed625/kotlin-android-extensions-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-core/1.0.2/5ce0c7c70e5e226a8640e5be1fbdff25bc491b9/kotlin-gradle-plugin-core-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.0.2/e4fd4b778bb4297306aa62ed9719523bb785cfbc/kotlin-gradle-plugin-api-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.2/8ec2d49a780ddba5e9b6860a72969e4d5bbc0c55/kotlin-runtime-1.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.3/2cced5fa42feee10f642f5c3083bad466abfaa29/kotlin-gradle-plugin-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.3/20738122b53399036c321eeb84687367757d622a/kotlin-stdlib-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.0.3/a339cb9b029182771f284dfd0c98aae1490de515/kotlin-android-extensions-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-core/1.0.3/8bb84589f20b2bed4ba81817a36ff0c722e23796/kotlin-gradle-plugin-core-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.0.3/249fe2d8195fc3474631e8adffb2232ef164eb99/kotlin-gradle-plugin-api-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.3/10f40d016700cf4287e49fa1d51c2a8507e9b946/kotlin-runtime-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.0.3/8d605894ceb1f870e8a6e62ebb6ff36ac3aa215b/kotlin-compiler-embeddable-1.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.0.2/fedf16a2961c4d63c8b4746bef269a12049bf37a/kotlin-compiler-embeddable-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.2/e9c5802f2ea60d581fb2ccb6e55ccec79fa0d7c4/kotlin-annotation-processing-1.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.3/12398f02af05a170664886894c7cd7e063585d5b/kotlin-annotation-processing-1.0.3.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -454,16 +564,16 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.2/5debd813305c36f1c61d18110fdc13a5f663bbd/kotlin-gradle-plugin-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/22063f19bfd8e50f21fc310842a91ff5b31bb272/kotlin-stdlib-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.0.2/aa5c3dcba43516a11146ca50375d340a330ed625/kotlin-android-extensions-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-core/1.0.2/5ce0c7c70e5e226a8640e5be1fbdff25bc491b9/kotlin-gradle-plugin-core-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.0.2/e4fd4b778bb4297306aa62ed9719523bb785cfbc/kotlin-gradle-plugin-api-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.2/8ec2d49a780ddba5e9b6860a72969e4d5bbc0c55/kotlin-runtime-1.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.3/2cced5fa42feee10f642f5c3083bad466abfaa29/kotlin-gradle-plugin-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.3/20738122b53399036c321eeb84687367757d622a/kotlin-stdlib-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.0.3/a339cb9b029182771f284dfd0c98aae1490de515/kotlin-android-extensions-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-core/1.0.3/8bb84589f20b2bed4ba81817a36ff0c722e23796/kotlin-gradle-plugin-core-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.0.3/249fe2d8195fc3474631e8adffb2232ef164eb99/kotlin-gradle-plugin-api-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.3/10f40d016700cf4287e49fa1d51c2a8507e9b946/kotlin-runtime-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.0.3/8d605894ceb1f870e8a6e62ebb6ff36ac3aa215b/kotlin-compiler-embeddable-1.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.0.2/fedf16a2961c4d63c8b4746bef269a12049bf37a/kotlin-compiler-embeddable-1.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.2/e9c5802f2ea60d581fb2ccb6e55ccec79fa0d7c4/kotlin-annotation-processing-1.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.3/12398f02af05a170664886894c7cd7e063585d5b/kotlin-annotation-processing-1.0.3.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/phictiurlann" />
@@ -549,13 +659,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/phictiurlann/build.gradle" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/.gitignore" />
         <option value="$PROJECT_DIR$/phictiurlann/src/main/resources/META-INF/gradle-plugins/com.twistedequations.phictiurlann.properties" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseJpegTask.groovy" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/ImageOptimise.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageOptimise.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/getBinraryFile.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.groovy" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/JpegImageOptimise.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageTypes.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.java" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/ButeraugliTest.kt" />
       </list>
     </option>
   </component>
@@ -573,9 +697,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="x" value="-241" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -603,8 +728,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -655,7 +778,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -663,7 +786,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-plugins" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binaries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -693,7 +872,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webp" />
+              <option name="myItemId" value="binraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -717,14 +896,190 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="osx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="butteraugli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binaries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -732,19 +1087,94 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last.edited.regexp" value="jpeg " />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/butteraugli/osx" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main" />
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.twistedequations.phictiurlann.image" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.twistedequations.phictiurlann.image" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.twistedequations.phictiurlann.binaries" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/mac" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/windows" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/test/resources/images" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/butteraugli/osx" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.twistedequations.phictiurlann" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/win" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/linux" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ComparePngsTest">
+    <configuration default="false" name="BinariesTest.getBinraryFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twistedequations.phictiurlann.binaries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="phictiurlann_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.binaries" />
+      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.binaries.BinariesTest" />
+      <option name="METHOD_NAME" value="getBinraryFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ComparePngsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twistedequations.phictiurlann.binaries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="phictiurlann_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.binaries" />
+      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.binaries.ComparePngsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1127,6 +1557,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BinariesTest.getBinraryFile" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ComparePngsTest" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ComparePngsTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BinariesTest.getBinraryFile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1139,66 +1579,126 @@
       <option name="presentableId" value="Default" />
       <updated>1467884956276</updated>
       <workItem from="1467884959895" duration="546000" />
-      <workItem from="1467885938932" duration="345000" />
+      <workItem from="1467885938932" duration="442000" />
+      <workItem from="1468074100507" duration="4684000" />
+      <workItem from="1468155447841" duration="3019000" />
+      <workItem from="1468311893817" duration="422000" />
+      <workItem from="1468415220402" duration="2961000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 44m 38s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 48m 14s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 49m 09s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 49m 20s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 50m 05s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 51m 33s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 52m 28s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 53m 08s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 58m 21s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 58m 45s.xml">
+      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="891000" />
+    <option name="totallyTimeSpent" value="12074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="false" />
+    <frame x="-241" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37380192" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23710209" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25201938" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1943557" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20516963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20447284" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399361" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#43#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1210,15 +1710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,17 +1717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="41" />
-          <folding>
-            <element signature="e#43#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,7 +1724,196 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/81502b079b2472f09df93ab0f2189de0d13f6cb4/kotlin-stdlib-1.0.2-sources.jar!/kotlin/io/Constants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/81502b079b2472f09df93ab0f2189de0d13f6cb4/kotlin-stdlib-1.0.2-sources.jar!/kotlin/io/IOStreams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.groovy" />
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="e#52#299#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/81502b079b2472f09df93ab0f2189de0d13f6cb4/kotlin-stdlib-1.0.2-sources.jar!/kotlin/io/files/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/81502b079b2472f09df93ab0f2189de0d13f6cb4/kotlin-stdlib-1.0.2-sources.jar!/kotlin/text/regex/Regex.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/81502b079b2472f09df93ab0f2189de0d13f6cb4/kotlin-stdlib-1.0.2-sources.jar!/kotlin/text/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="680" column="50" selection-start-line="680" selection-start-column="50" selection-end-line="680" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageTypes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageOptimise.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/JpegImageOptimise.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.3/efeac5a1b15300f742d2119667f90df44230b94a/kotlin-stdlib-1.0.3-sources.jar!/kotlin/io/IOStreams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#52#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#43#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli_image2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.28/cd343f2cdcf9f99b79c8e38dc9f40b3c54c7c583/truth-0.28-sources.jar!/com/google/common/truth/DoubleSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="154" column="20" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="20" />
+          <folding>
+            <element signature="e#6210#6211#0" expanded="true" />
+            <element signature="e#6242#6243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/ButeraugliTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+          <folding>
+            <element signature="e#52#439#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
