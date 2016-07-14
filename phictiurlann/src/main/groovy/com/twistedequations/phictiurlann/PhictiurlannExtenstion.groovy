@@ -14,4 +14,6 @@ class PhictiurlannExtenstion {
     public File imageDir;
 
     public int quality = 95;
+
+    public int butteraugliThreshold = 1.1;
 }
