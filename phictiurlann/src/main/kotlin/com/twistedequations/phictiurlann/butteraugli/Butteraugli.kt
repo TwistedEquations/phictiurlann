@@ -8,9 +8,6 @@ import java.io.BufferedReader
 import java.io.File
 import java.io.InputStreamReader
 
-/**
- * Created by patrickd on 13/07/2016.
- */
 class Butteraugli(private val project: Project,
                   private val extenstion: PhictiurlannExtenstion) {
 

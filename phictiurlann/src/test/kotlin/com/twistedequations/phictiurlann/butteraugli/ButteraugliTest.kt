@@ -11,9 +11,6 @@ import org.junit.rules.TemporaryFolder
 import org.mockito.Mockito
 import java.io.File
 
-/**
- * Created by patrickd on 13/07/2016.
- */
 class ButteraugliTest {
   @Rule @JvmField
   var tempFolder = TemporaryFolder();
