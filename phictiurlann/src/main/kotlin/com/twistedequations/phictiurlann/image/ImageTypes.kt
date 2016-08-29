@@ -16,4 +16,4 @@ fun isJpg(file : File) = file.extension.matches(JPG)
 
 fun isWebp(file : File) = file.extension.matches(WEBP)
 
-fun isSupportedImate(file : File) = isPng(file) || isJpg(file) || isWebp(file)
+fun isSupportedImage(file : File) = isPng(file) || isJpg(file) || isWebp(file)

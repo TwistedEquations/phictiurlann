@@ -2,23 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb370a0b-2aef-4bf7-8009-6092c67503b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngquant/linux/pngquant" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngquant/macos/pngquant" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngquant/win/pngquant.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngpalettise_canpalettise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngpalettise_cantpalettise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettise.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettiseTest.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/image/ImageOptimise.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/image/JpegImageOptimise.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/image/WebpImageOptimise.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageOptimise.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/JpegImageOptimise.kt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/butteraugli/Butteraugli.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/butteraugli/Butteraugli.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/buffered_image/is_gray_scale.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/buffered_image/more_than_256_colors.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/cwebp/jpegtran.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/cwebp/png_to_webp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/jpegtran/jpegtran.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/jpegtran/jpegtran_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/optipng/optipng.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/optipng/optipng1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngquant/pngpalettise_canpalettise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngquant/pngpalettise_cantpalettise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Converter.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Jpegtran.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Optipng.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/WebpEncode.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/BufferImageExt.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/models/ConvertResult.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/CWebpTest.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/JpegtranTest.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/PngQuantTest.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/image/BufferImageExtKtTest.kt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/png/pngquant/PngPalettise.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/test/com/twistedequations/phictiurlann/png/pngquant/PngPalettiseTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/butteraugli/osx/compare_pngs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/butteraugli/win/compare_pngs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/butteraugli/win/zlib.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/jpegtran/linux/jpegtran" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/jpegtran/osx/jpegtran" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/jpegtran/win/jpegtran.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/jpegtran/win/libjpeg-62.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/pngcrush/linux/pngcrush" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/pngcrush/osx/pngcrush" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/pngcrush/win/x64/pngcrush.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/pngcrush/win/x86/pngcrush.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/pngquant/linux/pngquant" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/pngquant/macos/pngquant" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/pngquant/win/pngquant.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/linux/cwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/linux/dwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/linux/gif2webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/linux/vwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/linux/webpmux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/osx/cwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/osx/dwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/osx/gif2webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/osx/vwebp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/osx/webpmux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/win/cwebp.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/win/dwebp.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/win/freeglut.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/win/gif2webp.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/win/vwebp.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/main/binraries/webp/win/webpmux.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/test/images/butteraugli_image1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/test/images/butteraugli_image2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/test/images/pngpalettise_canpalettise.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/build/resources/test/images/pngpalettise_cantpalettise.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngcrush/linux/pngcrush" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngcrush/osx/pngcrush" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngcrush/win/x64/pngcrush.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngcrush/win/x86/pngcrush.exe" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettise.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/PngQuant.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/butteraugli/osx/compare_pngs" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/butteraugli/win/compare_pngs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/butteraugli/win/compare_pngs" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/butteraugli/osx/compare_pngs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/butteraugli/win/zlib.dll" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/butteraugli/win/zlib.dll" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/linux/jpegtran" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/jpegtran/linux/jpegtran" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/osx/jpegtran" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/jpegtran/osx/jpegtran" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/win/jpegtran.exe" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/jpegtran/win/jpegtran.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/win/libjpeg-62.dll" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/jpegtran/win/libjpeg-62.dll" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/optipng/linux/optipng" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/optipng/linux/optipng" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/optipng/osx/optipng" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/optipng/osx/optipng" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/optipng/win/optipng.exe" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/optipng/win/optipng.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngquant/linux/pngquant" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/pngquant/linux/pngquant" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngquant/macos/pngquant" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/pngquant/osx/pngquant" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngquant/win/pngquant.exe" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/pngquant/win/pngquant.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/cwebp" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/linux/cwebp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/dwebp" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/linux/dwebp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/gif2webp" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/linux/gif2webp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/vwebp" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/linux/vwebp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/linux/webpmux" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/linux/webpmux" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/osx/cwebp" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/osx/cwebp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/osx/dwebp" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/osx/dwebp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/osx/gif2webp" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/osx/gif2webp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/osx/vwebp" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/osx/vwebp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/osx/webpmux" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/osx/webpmux" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/win/cwebp.exe" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/win/cwebp.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/win/dwebp.exe" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/win/dwebp.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/win/freeglut.dll" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/win/freeglut.dll" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/win/gif2webp.exe" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/win/gif2webp.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/win/vwebp.exe" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/win/vwebp.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/webp/win/webpmux.exe" afterPath="$PROJECT_DIR$/phictiurlann/src/main/resources/binaries/webp/win/webpmux.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettiseTest.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/OptipngTest.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli_image1.png" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli/butteraugli_image1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli_image2.png" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli/butteraugli_image2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngpalettise_canpalettise.png" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/buffered_image/less_then_256_colors.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngpalettise_cantpalettise.png" afterPath="$PROJECT_DIR$/phictiurlann/src/test/resources/images/buffered_image/is_not_gray_scale.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/META-INF/phictiurlann_main.kotlin_module" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/main/META-INF/phictiurlann_main.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/CoreKt.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/CoreKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/Phictiurlann.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/Phictiurlann.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/binaries/BinariesKt.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/binaries/BinariesKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/binaries/OSType.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/binaries/OSType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/image/ImageTypesKt.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/image/ImageTypesKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/main/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/test/com/twistedequations/phictiurlann/binaries/BinariesTest.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/test/com/twistedequations/phictiurlann/binaries/BinariesTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/build/classes/test/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.class" afterPath="$PROJECT_DIR$/phictiurlann/build/classes/test/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy" afterPath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy" afterPath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy" afterPath="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageTypes.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageTypes.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.kt" afterPath="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.kt" />
     </list>
     <ignored path="build-picturlan.iws" />
@@ -59,16 +154,103 @@
     <favorites_list name="build-picturlan" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Jpegtran.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Jpegtran.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+              <folding>
+                <element signature="e#54#477#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Optipng.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Optipng.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptipngTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/OptipngTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhictiurlannExtenstion.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferImageExt.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/BufferImageExt.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="e#49#109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptimiseImageTask.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpegtranTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/JpegtranTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pngquant.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Pngquant.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="e#54#586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
-        <option value="Class" />
-        <option value="Kotlin Object" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -551,25 +733,41 @@
         <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageOptimise.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/getBinraryFile.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.groovy" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/JpegImageOptimise.kt" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageTypes.kt" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.java" />
         <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/ButeraugliTest.kt" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy" />
         <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli/ButeraugliTest.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/build.gradle" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngQuant.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.kt" />
-        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettiseTest.kt" />
         <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettise.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/models/ConvertResult.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngQuantTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngQuant.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converts/Converter.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converts/PngQuant.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/PngQuantTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/JpegtranTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Converter.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Webptran.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageTypes.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/WebpEncode.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/CWebpTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/image/BufferImageExtKtTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/BufferImageExt.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Jpegtran.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/PngQuant.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Optipng.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/OptipngTest.kt" />
+        <option value="$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy" />
       </list>
     </option>
   </component>
@@ -587,10 +785,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="-925" />
-    <option name="width" value="1399" />
-    <option name="height" value="877" />
+    <option name="x" value="-226" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -666,6 +864,40 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-picturlan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phictiurlann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -687,6 +919,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -741,15 +977,11 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
+              <option name="myItemId" value="groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="phictiurlann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pngquant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -775,7 +1007,7 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
+              <option name="myItemId" value="groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -783,83 +1015,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build-picturlan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build-picturlan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phictiurlann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phictiurlann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="butteraugli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build-picturlan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build-picturlan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phictiurlann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phictiurlann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binaries" />
+              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -878,9 +1042,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.twistedequations.phictiurlann.converters" />
+      <recent name="com.twistedequations.phictiurlann.converts" />
+      <recent name="com.twistedequations.phictiurlann.image" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="com.twistedequations.phictiurlann.image" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.twistedequations.phictiurlann.image" />
       <recent name="com.twistedequations.phictiurlann.png.pngquant" />
       <recent name="com.twistedequations.phictiurlann.butteraugli" />
       <recent name="com.twistedequations.phictiurlann.binaries" />
@@ -889,107 +1059,26 @@
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngquant/linux" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/win" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/jpegtran/linux" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/phictiurlann/src/test/resources/images" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/butteraugli/win" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries" />
-      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/butteraugli/osx" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngquant" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/test/resources/images/bufferd_image" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.twistedequations.phictiurlann" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.twistedequations.phictiurlann.image" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngquant" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries/pngquant/linux" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/main/resources/binraries" />
+      <recent name="$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PngPalettiseTest">
-    <configuration default="false" name="BinariesTest.getBinraryFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twistedequations.phictiurlann.binaries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="phictiurlann_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.binaries" />
-      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.binaries.BinariesTest" />
-      <option name="METHOD_NAME" value="getBinraryFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ComparePngsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twistedequations.phictiurlann.binaries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="phictiurlann_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.binaries" />
-      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.binaries.ComparePngsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ButteraugliTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twistedequations.phictiurlann.butteraugli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="phictiurlann_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.butteraugli" />
-      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.butteraugli.ButteraugliTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PngPalettiseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in phictiurlann_test">
+    <configuration default="false" name="PngQuantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.twistedequations.phictiurlann.png.pngquant.*" />
@@ -1000,9 +1089,108 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.png.pngquant" />
-      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.png.pngquant.PngPalettiseTest" />
+      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.png.pngquant.PngQuantTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JpegtranTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twistedequations.phictiurlann.converters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="phictiurlann_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.converters" />
+      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.converters.JpegtranTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CWebpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twistedequations.phictiurlann.converters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="phictiurlann_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.converters" />
+      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.converters.CWebpTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BufferImageExtKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twistedequations.phictiurlann.image.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="phictiurlann_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twistedequations.phictiurlann.image" />
+      <option name="MAIN_CLASS_NAME" value="com.twistedequations.phictiurlann.image.BufferImageExtKtTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in phictiurlann_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="phictiurlann_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/phictiurlann" />
@@ -1397,18 +1585,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BinariesTest.getBinraryFile" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ComparePngsTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ButteraugliTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PngPalettiseTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PngQuantTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JpegtranTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CWebpTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BufferImageExtKtTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in phictiurlann_test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PngPalettiseTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ButteraugliTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ComparePngsTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BinariesTest.getBinraryFile" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in phictiurlann_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JpegtranTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BufferImageExtKtTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CWebpTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PngQuantTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1430,61 +1620,63 @@
       <workItem from="1468415220402" duration="5290000" />
       <workItem from="1468422005936" duration="112000" />
       <workItem from="1470582564796" duration="4787000" />
+      <workItem from="1472470043876" duration="9560000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ButteraugliTest - 2016.08.07 at 17h 09m 16s.xml">
-      <configuration name="ButteraugliTest" configurationId="JUnit" />
+    <history-entry file="All_in_phictiurlann_test - 2016.08.29 at 15h 09m 44s.xml">
+      <configuration name="All in phictiurlann_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 53m 08s.xml">
-      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    <history-entry file="All_in_phictiurlann_test - 2016.08.29 at 15h 10m 15s.xml">
+      <configuration name="All in phictiurlann_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 58m 21s.xml">
-      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    <history-entry file="All_in_phictiurlann_test - 2016.08.29 at 15h 10m 34s.xml">
+      <configuration name="All in phictiurlann_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 58m 45s.xml">
-      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    <history-entry file="All_in_phictiurlann_test - 2016.08.29 at 15h 10m 42s.xml">
+      <configuration name="All in phictiurlann_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComparePngsTest - 2016.07.13 at 14h 59m 10s.xml">
-      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    <history-entry file="All_in_phictiurlann_test - 2016.08.29 at 15h 29m 04s.xml">
+      <configuration name="All in phictiurlann_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComparePngsTest - 2016.07.13 at 15h 00m 15s.xml">
-      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    <history-entry file="All_in_phictiurlann_test - 2016.08.29 at 15h 41m 22s.xml">
+      <configuration name="All in phictiurlann_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComparePngsTest - 2016.07.13 at 15h 33m 04s.xml">
-      <configuration name="ComparePngsTest" configurationId="JUnit" />
+    <history-entry file="All_in_phictiurlann_test - 2016.08.29 at 15h 41m 59s.xml">
+      <configuration name="All in phictiurlann_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PngPalettiseTest - 2016.08.07 at 17h 26m 44s.xml">
-      <configuration name="PngPalettiseTest" configurationId="JUnit" />
+    <history-entry file="BufferImageExtKtTest - 2016.08.29 at 15h 09m 35s.xml">
+      <configuration name="BufferImageExtKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PngPalettiseTest - 2016.08.07 at 17h 27m 48s.xml">
-      <configuration name="PngPalettiseTest" configurationId="JUnit" />
+    <history-entry file="JpegtranTest - 2016.08.29 at 15h 16m 41s.xml">
+      <configuration name="JpegtranTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PngPalettiseTest - 2016.08.07 at 17h 28m 14s.xml">
-      <configuration name="PngPalettiseTest" configurationId="JUnit" />
+    <history-entry file="JpegtranTest - 2016.08.29 at 15h 16m 44s.xml">
+      <configuration name="JpegtranTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19302000" />
+    <option name="totallyTimeSpent" value="28862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="-925" width="1399" height="877" extended-state="0" />
-    <editor active="false" />
+    <frame x="-226" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694355" sideWeight="0.4978701" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.314164" sideWeight="0.5063898" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4466403" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23542354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.314164" sideWeight="0.49361023" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2715655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3102432" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22417465" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.4978701" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20413275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1494,7 +1686,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1511,92 +1702,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/resources/META-INF/gradle-plugins/com.twistedequations.phictiurlann.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/81502b079b2472f09df93ab0f2189de0d13f6cb4/kotlin-stdlib-1.0.2-sources.jar!/kotlin/io/Constants.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/81502b079b2472f09df93ab0f2189de0d13f6cb4/kotlin-stdlib-1.0.2-sources.jar!/kotlin/io/IOStreams.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2/81502b079b2472f09df93ab0f2189de0d13f6cb4/kotlin-stdlib-1.0.2-sources.jar!/kotlin/io/files/Utils.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -1618,25 +1728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1655,20 +1750,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#55#362#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1681,18 +1767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.3/efeac5a1b15300f742d2119667f90df44230b94a/kotlin-stdlib-1.0.3-sources.jar!/kotlin/io/IOStreams.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1704,34 +1782,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/JpegImageOptimise.kt">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/JpegImageOptimise.kt" />
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt" />
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageOptimise.kt" />
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/PngquantTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#54#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli/butteraugli_image2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli/butteraugli_image1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="e#55#349#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="1198" column="23" selection-start-line="1198" selection-start-column="23" selection-end-line="1198" selection-end-column="23" />
+          <folding>
+            <element signature="e#46871#46872#0" expanded="false" />
+            <element signature="e#46910#46911#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/pngquant/pngpalettise_canpalettise.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/WebpImageOptimise.kt">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/models/ConvertResult.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="273">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageOptimise.kt">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/resources/META-INF/gradle-plugins/com.twistedequations.phictiurlann.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Converter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="78">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#54#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/WebpEncode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.3/efeac5a1b15300f742d2119667f90df44230b94a/kotlin-stdlib-1.0.3-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="1370" column="36" selection-start-line="1370" selection-start-column="36" selection-end-line="1370" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="179" column="15" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
+          <folding>
+            <element signature="e#6684#6685#0" expanded="true" />
+            <element signature="e#6717#6718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.3/10f40d016700cf4287e49fa1d51c2a8507e9b946/kotlin-runtime-1.0.3.jar!/kotlin/kotlin.kotlin_builtins">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="630" column="27" selection-start-line="630" selection-start-column="27" selection-end-line="630" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1739,74 +1903,180 @@
     <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/ImageTypes.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/image/BufferImageExtKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/CWebpTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/PngquantTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="88" selection-end-column="116" />
+          <folding>
+            <element signature="e#54#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/buffered_image/more_than_256_colors.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/buffered_image/is_gray_scale.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/buffered_image/is_not_gray_scale.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="2215" column="24" selection-start-line="2215" selection-start-column="24" selection-end-line="2215" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/binaries/BinariesKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/image/BufferImageExtKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.3/efeac5a1b15300f742d2119667f90df44230b94a/kotlin-stdlib-1.0.3-sources.jar!/kotlin/collections/MutableCollections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/Phictiurlann.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/Core.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Pngquant.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#54#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Optipng.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/jpegtran/jpegtran_error.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/binaries/Binaries.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="42" column="86" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="86" />
+        <state relative-caret-position="676">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/butteraugli/Butteraugli.kt">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/JpegtranTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="89" selection-start-line="23" selection-start-column="89" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/converters/Jpegtran.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
           <folding>
-            <element signature="e#55#349#0" expanded="true" />
+            <element signature="e#54#477#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettiseTest.kt">
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/converters/OptipngTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/PhictiurlannExtenstion.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/image/BufferImageExt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#49#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/groovy/com/twistedequations/phictiurlann/tasks/OptimiseImageTask.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#56#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli_image2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/resources/images/butteraugli_image1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettiseTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#56#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/test/kotlin/com/twistedequations/phictiurlann/butteraugli/ButteraugliTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phictiurlann/src/main/kotlin/com/twistedequations/phictiurlann/png/pngquant/PngPalettise.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#56#287#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

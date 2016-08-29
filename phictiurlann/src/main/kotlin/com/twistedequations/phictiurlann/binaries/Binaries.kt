@@ -33,15 +33,21 @@ private fun getOsDiranme(osType: OSType) : String = when(osType) {
 private fun getBinraryResourceStream(groupName: String, fileName: String) : InputStream {
 
   val osFileDirName = getOsDiranme(getOperatingSystemType())
-  return Phictiurlann::class.java.getResourceAsStream("${File.separator}binraries${File.separator}" +
-                   "$groupName${File.separator}$osFileDirName${File.separator}$fileName")
+  val resourcePath = "${File.separator}binaries${File.separator}" +
+      "$groupName${File.separator}$osFileDirName${File.separator}$fileName"
+
+  println("Loading binary resourcePath = $resourcePath")
+
+  return Phictiurlann::class.java.getResourceAsStream(resourcePath)
 }
 
 
 fun getBinraryFile(groupName: String, fileName: String, project: Project) : File {
 
   val buildFolderName = "${project.buildDir.absolutePath}${File.separator}phictiurlann${File.separator}" +
-      "binraries${File.separator}$groupName${File.separator}$fileName";
+      "binaries${File.separator}$groupName${File.separator}$fileName";
+
+  println("Loading binary $buildFolderName")
 
   val file = File(buildFolderName);
   if(!file.exists()) {

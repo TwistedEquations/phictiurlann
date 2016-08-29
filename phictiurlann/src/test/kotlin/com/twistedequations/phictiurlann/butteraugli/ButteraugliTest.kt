@@ -38,7 +38,7 @@ class ButteraugliTest {
 
     //When
     val file = com.twistedequations.phictiurlann.binaries.getBinraryFile("butteraugli", "compare_pngs", project)
-    val buildDirFile = File(buildDir, "${File.separator}phictiurlann${File.separator}binraries" +
+    val buildDirFile = File(buildDir, "${File.separator}phictiurlann${File.separator}binaries" +
         "${File.separator}butteraugli${File.separator}compare_pngs")
 
     Truth.assertThat(file.exists()).isTrue()
@@ -63,8 +63,8 @@ class ButteraugliTest {
     //Copy images
     val outStream1 = image1File.outputStream()
     val outStream2 = image2File.outputStream()
-    ButteraugliTest::class.java.getResourceAsStream("/images/butteraugli_image1.png").copyTo(outStream1)
-    ButteraugliTest::class.java.getResourceAsStream("/images/butteraugli_image2.png").copyTo(outStream2)
+    ButteraugliTest::class.java.getResourceAsStream("/images/butteraugli/butteraugli_image1.png").copyTo(outStream1)
+    ButteraugliTest::class.java.getResourceAsStream("/images/butteraugli/butteraugli_image2.png").copyTo(outStream2)
     outStream1.close()
     outStream2.close()
 
@@ -91,8 +91,8 @@ class ButteraugliTest {
     //Copy images
     val outStream1 = image1File.outputStream()
     val outStream2 = image2File.outputStream()
-    ButteraugliTest::class.java.getResourceAsStream("/images/butteraugli_image1.png").copyTo(outStream1)
-    ButteraugliTest::class.java.getResourceAsStream("/images/butteraugli_image2.png").copyTo(outStream2)
+    ButteraugliTest::class.java.getResourceAsStream("/images/butteraugli/butteraugli_image1.png").copyTo(outStream1)
+    ButteraugliTest::class.java.getResourceAsStream("/images/butteraugli/butteraugli_image2.png").copyTo(outStream2)
     outStream1.close()
     outStream2.close()
 

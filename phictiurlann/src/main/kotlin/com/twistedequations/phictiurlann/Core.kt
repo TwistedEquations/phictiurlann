@@ -1,6 +1,6 @@
 package com.twistedequations.phictiurlann
 
-import com.twistedequations.phictiurlann.image.isSupportedImate
+import com.twistedequations.phictiurlann.image.isSupportedImage
 import com.twistedequations.phictiurlann.image.isWebp
 import java.io.File
 
@@ -10,7 +10,7 @@ fun optimiseImages(dir: File, extenstion: PhictiurlannExtenstion) {
   }
 
   dir.listFiles()
-      .filter { isSupportedImate(it) }
+      .filter { isSupportedImage(it) }
       .forEach { processImage(it, extenstion) }
 }
 
@@ -20,7 +20,5 @@ private fun processImage(file: File, extenstion: PhictiurlannExtenstion) {
     if(isWebp(file)) {
 
     }
-
-    return
   }
 }

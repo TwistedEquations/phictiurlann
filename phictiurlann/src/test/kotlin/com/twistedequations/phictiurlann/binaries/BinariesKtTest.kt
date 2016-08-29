@@ -11,9 +11,6 @@ import org.junit.rules.TemporaryFolder
 import org.mockito.Mockito
 import java.io.File
 
-/**
- * Created by patrickd on 09/07/2016.
- */
 class BinariesTest {
 
   @Rule @JvmField
@@ -36,9 +33,9 @@ class BinariesTest {
   fun getBinraryFile() {
 
     //When
-    val file = getBinraryFile("jpegoptim", "jpegoptim", project)
-    val buildDirFile = File(buildDir, "${File.separator}phictiurlann${File.separator}binraries" +
-        "${File.separator}jpegoptim${File.separator}jpegoptim")
+    val file = getBinraryFile("jpegtran", "jpegtran", project)
+    val buildDirFile = File(buildDir, "${File.separator}phictiurlann${File.separator}binaries" +
+        "${File.separator}jpegtran${File.separator}jpegtran")
 
     Truth.assertThat(file.exists()).isTrue()
     Truth.assertThat(buildDirFile.exists()).isTrue()

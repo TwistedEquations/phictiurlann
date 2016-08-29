@@ -5,9 +5,6 @@ import com.twistedequations.phictiurlann.PhictiurlannExtenstion
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
 
-/**
- * Created by patrickd on 09/07/2016.
- */
 class OptimiseImageTask extends DefaultTask {
 
     @TaskAction
